@@ -1,4 +1,5 @@
 # pacapaca-sc Writeup
+<https://alpacahack.com/daily/challenges/pacapaca-sc>
 
 ## 1. 概要
 `pacapaca-sc` は，提供されたバイナリに対してシェルコードを送信し，サーバー上のフラグを読み取るPwn問題です．プログラムには `seccomp` によるシステムコールの制限がかけられており，一般的な `/bin/sh` の起動（`execve`）は封じられています．
@@ -37,6 +38,7 @@
 ## 4. エクスプロイトコード
 
 `pwntools` を利用して，ORWシェルコードを生成し送信するスクリプトを作成しました．
+<https://github.com/shinya00000/ctf/blob/main/alpacahack/pacapaca-sc/pacapaca_sc.ipynb>
 
 ```python
 from pwn import *
