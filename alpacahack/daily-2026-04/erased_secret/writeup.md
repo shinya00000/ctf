@@ -1,4 +1,5 @@
 # erased-secret Writeup
+<https://alpacahack.com/daily/challenges/erased-secret?month=2026-04>
 
 ## 1. 概要
 `erased-secret` は，C言語のコンパイラ最適化による挙動と，未初期化変数を経由した情報漏洩（スタックの再利用）を利用して，消去されたはずのシークレット値を復元する問題です．
@@ -32,6 +33,7 @@
 ## 4. エクスプロイトコード
 
 `pwntools` を利用して，メモリをダンプし自動でシークレットを特定・送信するスクリプトを作成しました．
+<https://github.com/shinya00000/ctf/blob/main/alpacahack/daily-2026-04/erased_secret/erased_secret.ipynb>
 
 ```python
 from pwn import *
