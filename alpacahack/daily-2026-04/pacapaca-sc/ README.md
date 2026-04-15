@@ -38,7 +38,7 @@
 ## 4. エクスプロイトコード
 
 `pwntools` を利用して，ORWシェルコードを生成し送信するスクリプトを作成しました．
-<https://github.com/shinya00000/ctf/blob/main/alpacahack/pacapaca-sc/pacapaca_sc.ipynb>
+<https://github.com/shinya00000/ctf/blob/main/alpacahack/daily-2026-04/pacapaca-sc/solve.ipynb>
 
 ```python
 from pwn import *

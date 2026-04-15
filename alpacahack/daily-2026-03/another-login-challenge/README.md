@@ -1,4 +1,5 @@
 # another-login-challenge Writeup
+<https://alpacahack.com/daily/challenges/another-login-challenge?month=2026-03>
 
 ## 1. 概要
 `another-login-challenge` は，提供されたWebアプリケーションのログイン機能をバイパスし，サーバー上に設定されたフラグを取得するWeb問題です．ソースコードが提供されており，JavaScriptの仕様を突いた認証回避が求められます．

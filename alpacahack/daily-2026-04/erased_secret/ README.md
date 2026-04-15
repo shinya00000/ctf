@@ -33,7 +33,7 @@
 ## 4. エクスプロイトコード
 
 `pwntools` を利用して，メモリをダンプし自動でシークレットを特定・送信するスクリプトを作成しました．
-<https://github.com/shinya00000/ctf/blob/main/alpacahack/daily-2026-04/erased_secret/erased_secret.ipynb>
+<https://github.com/shinya00000/ctf/blob/main/alpacahack/daily-2026-04/erased_secret/solve.ipynb>
 
 ```python
 from pwn import *
