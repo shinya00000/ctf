@@ -1,4 +1,5 @@
 # one-more-login-challenge Writeup
+<https://alpacahack.com/daily/challenges/one-more-login-challenge?month=2026-04>
 
 ## 1. 概要
 
