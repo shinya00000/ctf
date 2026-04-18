@@ -1,4 +1,4 @@
-# 「chall.sage」Writeup
+# super-simultaneous-equations　Writeup
 <https://alpacahack.com/daily/challenges/super-simultaneous-equations>
 
 ## 1. 概要
