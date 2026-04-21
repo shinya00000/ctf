@@ -9,7 +9,7 @@
 
 ### ファイル構成
 
-問題サーバ上で対話的に動作するPythonスクリプト（server.py）が与えられています．
+server.py
 
 ### ソースコードの確認
 
@@ -70,5 +70,5 @@ Cards:
 left: 0
 right: 2
 proof: 2424e7ecc28493e3f4605d8e1a416c2a67761b65f6ea22893b680744e2a0fa7f
-[+] Alpaca{r4nk_b1nd1n6_15_n07_57473m3n7_b1nd1n6}
+[+] Alpaca{....}
 ```
