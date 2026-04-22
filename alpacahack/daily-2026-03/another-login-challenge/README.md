@@ -2,14 +2,15 @@
 <https://alpacahack.com/daily/challenges/another-login-challenge?month=2026-03>
 
 ## 1. 概要
-`another-login-challenge` は，提供されたWebアプリケーションのログイン機能をバイパスし，サーバー上に設定されたフラグを取得するWeb問題です．ソースコードが提供されており，JavaScriptの仕様を突いた認証回避が求められます．
+本問題は提供されたWebアプリケーションのログイン機能をバイパスし，サーバー上に設定されたフラグを取得するWeb問題です．ソースコードが提供されており，JavaScriptの仕様を突いた認証回避が求められます．
 
 ## 2. 問題の分析
 
 ### ファイル構成
-* `web/index.js`: プログラムのメインとなるソースコード
-* `web/Dockerfile` / `compose.yaml`: サーバーの実行環境設定ファイル
-* `web/package.json` / `web/package-lock.json`: 依存パッケージの設定
+
+`web/index.js`: プログラムのメインとなるソースコード
+`web/Dockerfile` / `compose.yaml`: サーバーの実行環境設定ファイル
+`web/package.json` / `web/package-lock.json`: 依存パッケージの設定
 
 ### ソースコードの確認（index.js）
 プログラムの主な処理は以下の通りです．
