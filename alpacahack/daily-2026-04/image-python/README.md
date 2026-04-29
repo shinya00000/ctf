@@ -1,5 +1,6 @@
 # image-python writeup
 <https://alpacahack.com/daily/challenges/image-python>
+参考：<https://www.tohoho-web.com/wwwgif.htm>
 
 ## 1. 概要
 本問題はPythonの `exec()` を用いたJail問題です．入力したデータは `file` コマンドによって画像ファイルであるか判定されます．画像ファイルとしての判定を突破しつつPythonコードとして有効なPolyglotを作成することで任意のコードを実行しフラグを取得します．
