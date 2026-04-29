@@ -1,4 +1,6 @@
 # fushigi-crawler writeup
+<https://alpacahack.com/daily/challenges/fushigi-crawler?month=2026-01>
+webhook.site <https://webhook.site>
 
 ## 1. 概要
 本問題は与えられたURLをクローリングするWebアプリケーションに存在する脆弱性を突いてフラグを取得する問題です．
