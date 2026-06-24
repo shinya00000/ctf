@@ -1,4 +1,5 @@
 # honk-the-klaxon writeup
+<https://alpacahack.com/daily/challenges/honk-the-klaxon>
 
 ## 1. 概要
 
